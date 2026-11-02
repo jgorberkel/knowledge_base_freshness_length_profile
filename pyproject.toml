@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jgorberkel-autoplan_jd304"
+name = "jgorberkel-knowledge_base_freshness_length_profile"
 version = "0.1.0"
 description = "按段落统计自动驾驶规划控制专家·知识库的时效性维护相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://jgorberkel.github.io"
-Repository = "https://github.com/jgorberkel/autoplan_jd304"
-Issues = "https://github.com/jgorberkel/autoplan_jd304/issues"
+Repository = "https://github.com/jgorberkel/knowledge_base_freshness_length_profile"
+Issues = "https://github.com/jgorberkel/knowledge_base_freshness_length_profile/issues"
 
 [project.scripts]
-autoplan_jd304 = "autoplan_jd304:main"
+knowledge_base_freshness_length_profile = "knowledge_base_freshness_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["autoplan_jd304"]
+py-modules = ["knowledge_base_freshness_length_profile"]
